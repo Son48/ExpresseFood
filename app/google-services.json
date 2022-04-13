@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "334191925323",
+    "firebase_url": "https://eefood-7abf6-default-rtdb.firebaseio.com",
+    "project_id": "eefood-7abf6",
+    "storage_bucket": "eefood-7abf6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334191925323:android:8e2f64babd4af407fed5ce",
+        "android_client_info": {
+          "package_name": "com.example.expressefood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334191925323-jtvo5hds3es4n9sbquad9734lpod8h35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzNTTvfsB6iYXanNENKKuECgDlxIgkynE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334191925323-jtvo5hds3es4n9sbquad9734lpod8h35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

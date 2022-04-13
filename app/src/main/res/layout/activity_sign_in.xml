@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SignInActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/sign_in"/>
+    <EditText
+        android:id="@+id/edPhoneInput"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your PhoneNumber"
+        android:textSize="14dp"
+        android:layout_marginTop="14dp"/>
+    <EditText
+        android:id="@+id/edPasswordInput"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="14dp"
+        android:layout_marginTop="14dp"/>
+    <TextView
+        android:id="@+id/txForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:layout_marginTop="11dp"
+        android:text="Fogot password?"
+        android:layout_marginStart="80dp"
+        android:textColor="@color/red"/>
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="206dp"
+        android:layout_height="48dp"
+        app:cornerRadius="50dp"
+        android:background="@drawable/background_button"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:layout_marginTop="40dp"/>
+    <LinearLayout
+        android:id="@+id/lnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_marginTop="11dp"
+            android:text="Don’t have an account?" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_marginTop="11dp"
+            android:text="Sign Up"
+            android:textColor="@color/red"/>
+    </LinearLayout>
+
+</LinearLayout>
