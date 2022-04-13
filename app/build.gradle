@@ -49,8 +49,8 @@ dependencies {
     def lottieVersion = "3.4.0"
     implementation "com.airbnb.android:lottie:$lottieVersion"
 
-    //tablaout
-    implementation 'com.android.support:design:31.0.1'
+//    //tablaout
+//    implementation 'com.android.support:design:31.0.1'
     //piccaso
     implementation 'com.squareup.picasso:picasso:2.71828'
     //firebase
@@ -59,6 +59,6 @@ dependencies {
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     //Elegan button
     implementation 'com.cepheuen.elegant-number-button:lib:1.0.2'
-    //design
-    implementation 'com.google.android.material:material:1.1.0'
+//    //design
+//    implementation 'com.google.android.material:material:1.1.0'
 }
