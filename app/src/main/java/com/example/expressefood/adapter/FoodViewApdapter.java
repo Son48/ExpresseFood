@@ -11,7 +11,7 @@ import com.example.expressefood.R;
 import com.example.expressefood.interface_food.ItemClickListener;
 
 public class FoodViewApdapter extends RecyclerView.ViewHolder implements View.OnClickListener {
-    public TextView foodName;
+    public TextView foodName,priceFood,desFood;
     public ImageView foodImage;
 
     private ItemClickListener itemClickListener;
@@ -22,6 +22,8 @@ public class FoodViewApdapter extends RecyclerView.ViewHolder implements View.On
 
     public FoodViewApdapter(@NonNull View itemView) {
         super(itemView);
+        priceFood=itemView.findViewById(R.id.tvPrice);
+        desFood=itemView.findViewById(R.id.tvFoodDes);
         foodName=itemView.findViewById(R.id.food_name);
         foodImage=itemView.findViewById(R.id.food_img);
         itemView.setOnClickListener(this);
