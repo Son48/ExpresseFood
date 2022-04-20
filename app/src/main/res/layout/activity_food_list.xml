@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".activities.FoodList">
 
-
     <androidx.cardview.widget.CardView
         android:id="@+id/cardImageCategory"
         android:layout_width="match_parent"
@@ -28,32 +27,6 @@
             android:src="@drawable/intro_1" />
 
     </androidx.cardview.widget.CardView>
-
-    <LinearLayout
-        android:id="@+id/lnListFood"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="40dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardCategory">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Food List"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textSize="20sp"/>
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rvFood"
-            android:layout_width="409dp"
-            android:layout_height="511dp"
-            android:scrollbars="vertical"
-          />
-    </LinearLayout>
-
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardCategory"
@@ -78,5 +51,29 @@
             android:textColor="@color/black"
             android:layout_marginLeft="10dp"/>
     </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:id="@+id/lnListFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardCategory">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food List"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvFood"
+            android:layout_width="409dp"
+            android:layout_height="511dp"
+            android:scrollbars="vertical"
+            />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

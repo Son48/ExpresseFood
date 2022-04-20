@@ -11,8 +11,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        tools:replace="android:theme"
-        android:theme="@style/Theme.ExpresseFood">
+        android:theme="@style/Theme.ExpresseFood"
+        tools:replace="android:theme">
+        <activity
+            android:name=".activities.ui.CardActivity"
+            android:exported="false" />
         <activity
             android:name=".activities.FoodDetail"
             android:exported="false" />

@@ -99,7 +99,7 @@ public class FoodList extends AppCompatActivity {
                     holder.setItemClickListener(new ItemClickListener() {
                         @Override
                         public void onClick(View view, int position, boolean isLongClick) {
-                            Intent intent=new Intent(FoodList.this, FoodList.class);
+                            Intent intent=new Intent(FoodList.this, FoodDetail.class);
                             intent.putExtra("FoodId",firebaseRecyclerAdapter.getRef(position).getKey());
                             startActivity(intent);
                         }

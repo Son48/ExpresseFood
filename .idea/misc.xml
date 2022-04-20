@@ -23,8 +23,9 @@
         <entry key="..\:/Users/le482/OneDrive/Desktop/androidstudio/ExpresseFood2/app/src/main/res/font/poppins_light.xml" value="0.27589743589743587" />
         <entry key="..\:/Users/le482/OneDrive/Desktop/androidstudio/ExpresseFood2/app/src/main/res/font/poppins_semibold.xml" value="0.27589743589743587" />
         <entry key="..\:/Users/le482/OneDrive/Desktop/androidstudio/ExpresseFood2/app/src/main/res/font/poppins_thin.xml" value="0.27589743589743587" />
-        <entry key="..\:/Users/le482/OneDrive/Desktop/androidstudio/ExpresseFood2/app/src/main/res/layout/activity_food_detail.xml" value="0.10400000000000001" />
-        <entry key="..\:/Users/le482/OneDrive/Desktop/androidstudio/ExpresseFood2/app/src/main/res/layout/activity_food_list.xml" value="0.11374407582938388" />
+        <entry key="..\:/Users/le482/OneDrive/Desktop/androidstudio/ExpresseFood2/app/src/main/res/layout/activity_card.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/le482/OneDrive/Desktop/androidstudio/ExpresseFood2/app/src/main/res/layout/activity_food_detail.xml" value="0.2" />
+        <entry key="..\:/Users/le482/OneDrive/Desktop/androidstudio/ExpresseFood2/app/src/main/res/layout/activity_food_list.xml" value="0.2" />
         <entry key="..\:/Users/le482/OneDrive/Desktop/androidstudio/ExpresseFood2/app/src/main/res/layout/activity_home.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/le482/OneDrive/Desktop/androidstudio/ExpresseFood2/app/src/main/res/layout/activity_intro.xml" value="0.264" />
         <entry key="..\:/Users/le482/OneDrive/Desktop/androidstudio/ExpresseFood2/app/src/main/res/layout/activity_logo.xml" value="0.176" />
@@ -34,6 +35,7 @@
         <entry key="..\:/Users/le482/OneDrive/Desktop/androidstudio/ExpresseFood2/app/src/main/res/layout/activity_sign_up.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/le482/OneDrive/Desktop/androidstudio/ExpresseFood2/app/src/main/res/layout/app_bar_home.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/le482/OneDrive/Desktop/androidstudio/ExpresseFood2/app/src/main/res/layout/app_bar_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/le482/OneDrive/Desktop/androidstudio/ExpresseFood2/app/src/main/res/layout/card_item.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/le482/OneDrive/Desktop/androidstudio/ExpresseFood2/app/src/main/res/layout/content_home.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/le482/OneDrive/Desktop/androidstudio/ExpresseFood2/app/src/main/res/layout/content_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/le482/OneDrive/Desktop/androidstudio/ExpresseFood2/app/src/main/res/layout/food_item.xml" value="0.2078853046594982" />
